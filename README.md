@@ -35,3 +35,44 @@ other players.
 9. When any players ECO Coin balance reaches zero, the game is over.
 Figure 1: Game Board
 10. If any player choses to quit the game, the game ends for all players.
+
+
+Overview
+To begin the game, the users must first decide how many players there will be, between a minimum
+of 1 and a maximum of 4, if a number outside of this range is entered, or any other character is
+entered, the users will be prompted to enter a number between 1-4.
+
+![image](https://github.com/user-attachments/assets/912344e2-5f59-4ed3-85c6-e87f66dc3de6)
+
+Players must then enter their chosen names. The name of the player must be at least one character
+long and may only contain letters a-z / A-Z, the name must be unique. If the user choses to enter a
+name of length 0 or use numbers, they will be prompted to try again with letters.
+
+![image](https://github.com/user-attachments/assets/d94ae7b5-dd34-4528-a981-4cb28dad1fc5)
+
+When players land on an unowned tile, they have the option to purchase that tile at a cost to their
+ECO Coins. Purchasing an area updates the owner variable attached to the square with the players
+name. This will allow the player to receive rent payments from other players who subsequently land
+on that tile. To maximise the rental income from each of their tiles, players should aim to build
+developments on each tile that they own.
+
+![image](https://github.com/user-attachments/assets/491b8a4d-b077-4fdd-a3cd-e3ed1395f336)
+
+If the player chooses not to buy the area, they can offer the area to another player for the same
+cost. They simply must enter the desired players name to offer the area to and the desired player
+must say yes or no. If the player does not wish to purchase, the original player may offer to another
+player. Allowing another player to purchase the area utilises the same method as purchasing during
+the original players turn.
+
+![image](https://github.com/user-attachments/assets/b0cb23ba-1635-48a7-93cc-c90d3bebb075)
+
+If the player lands on an area owned by another player, they must make an offer to pay rent to the
+owner of the area. The owner may decline to accept the payment
+
+
+
+
+
+
+
+
